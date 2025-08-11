@@ -13,7 +13,7 @@
   <Category>MediaApp:Photos</Category>
   <WebUI/>
   <TemplateURL>https://raw.githubusercontent.com/ajb3932/immich-partner-sharing/main/templates/unraid-template.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/ajb3932/immich-partner-sharing/main/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/ajb3932/immich-partner-sharing/refs/heads/main/partnersharing.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
