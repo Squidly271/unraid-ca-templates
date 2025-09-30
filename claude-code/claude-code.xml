@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>claude-code</Name>
+  <Repository>ajb3932/claude-code</Repository>
+  <Registry>https://hub.docker.com/r/ajb3932/claude-code</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ajb3932/claude-code</Support>
+  <Project>https://github.com/ajb3932/claude-code</Project>
+  <Overview>It's a simple docker container which runs Claude Code. You can mount your working directory and Claude Code mounts it automatically.</Overview>
+  <Category>Productivity</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/ajb3932/claude-code/main/templates/unraid-template.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ajb3932/claude-code/refs/heads/main/logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText>Buy me a coffee<DonateText/>
+  <DonateLink>https://ko-fi.com/ajb3932<DonateLink/>
+
+  <Config Name="Project Dir" Target="/workspace" Default="/mnt/user/appdata/claude-code/workspace" Mode="rw" Description="The working directory of Claude Code" Type="Path" Display="advanced" Required="true" Mask="false"/>
+  <Config Name="Claude Dir" Target="/root/.config/claude-code" Default="/mnt/user/appdata/claude-code/config" Mode="rw" Description="The working directory of Claude Code" Type="Path" Display="advanced" Required="true" Mask="false"/>
+</Container>

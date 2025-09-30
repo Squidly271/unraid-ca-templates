@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled></DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Buy me a coffee<DonateText/>
+  <DonateLink>https://ko-fi.com/ajb3932<DonateLink/>
   <Requires>Immich server running and accessible</Requires>
   <Config Name="Immich Server URL" Target="IMMICH_SERVER" Default="http://localhost:2283" Mode="" Description="URL of your Immich server" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Sync Interval (Minutes)" Target="SYNC_INTERVAL_MINUTES" Default="60" Mode="" Description="How often to check for new photos (in minutes)" Type="Variable" Display="always" Required="false" Mask="false"/>
