@@ -12,7 +12,7 @@
   <Overview>It's a simple docker container which runs Claude Code. You can mount your working directory and Claude Code mounts it automatically.</Overview>
   <Category>Productivity</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/ajb3932/claude-code/main/templates/unraid-template.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/ajb3932/unraid-ca-templates/refs/heads/main/claude-code/claude-code.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ajb3932/claude-code/refs/heads/main/logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
@@ -20,7 +20,7 @@
   <DateInstalled></DateInstalled>
   <DonateText>Buy me a coffee<DonateText/>
   <DonateLink>https://ko-fi.com/ajb3932<DonateLink/>
-
+  <Requires>Claude Pro or Max subscription</Requires>
   <Config Name="Project Dir" Target="/workspace" Default="/mnt/user/appdata/claude-code/workspace" Mode="rw" Description="The working directory of Claude Code" Type="Path" Display="advanced" Required="true" Mask="false"/>
   <Config Name="Claude Dir" Target="/root/.config/claude-code" Default="/mnt/user/appdata/claude-code/config" Mode="rw" Description="The working directory of Claude Code" Type="Path" Display="advanced" Required="true" Mask="false"/>
 </Container>

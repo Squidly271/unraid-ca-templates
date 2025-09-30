@@ -12,7 +12,7 @@
   <Overview>A simple wishlist application for tracking birthday and holiday gift ideas. Built with Node.js and MongoDB.</Overview>
   <Category>HomeAutomation</Category>
   <WebUI>http://[IP]:[PORT:8092]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/ajb3932/simple-wishlist/main/templates/unraid-template.xml</TemplateURL>
+  <TemplateURL>https://github.com/ajb3932/unraid-ca-templates/blob/main/simple-wishlist/simple-wishlist.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ajb3932/simple-wishlist/main/public/images/wishlist-present.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
