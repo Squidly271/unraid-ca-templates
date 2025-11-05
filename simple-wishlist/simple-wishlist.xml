@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled></DateInstalled>
-  <DonateText>Buy me a coffee<DonateText/>
-  <DonateLink>https://ko-fi.com/ajb3932<DonateLink/>
+  <DonateText>Buy me a coffee</DonateText>
+  <DonateLink>https://ko-fi.com/ajb3932</DonateLink>
   <Requires>MongoDB container or external MongoDB instance</Requires>
   
   <!-- Port Configuration -->
